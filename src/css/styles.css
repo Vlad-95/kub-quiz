@@ -662,11 +662,7 @@ textarea {
         left: 0;
         width: 100%; }
     .quiz__form-step-content-col.rooms {
-      display: block;
-      margin: 0 0 15px; }
-      .quiz__form-step-content-col.rooms .quiz__form-label {
-        width: 100%;
-        margin: 0 0 20px; }
+      width: calc(100% + 20px); }
     .quiz__form-progress {
       margin-bottom: 25px; }
     .quiz__form-feedback .wysiwyg p {
@@ -679,11 +675,13 @@ textarea {
         left: 15px; }
       .quiz__form-checkbox-text:after {
         left: 19px; }
-    .quiz__form-checkbox_image-content .image {
-      height: 160px; }
-    .quiz__form-checkbox_image-content p {
-      font-size: 16px;
-      line-height: 19px; }
+    .quiz__form-checkbox_image-content {
+      padding: 10px; }
+      .quiz__form-checkbox_image-content .image {
+        height: 160px; }
+      .quiz__form-checkbox_image-content p {
+        font-size: 12px;
+        line-height: 19px; }
   .quiz__footer {
     display: -webkit-box;
     display: -ms-flexbox;
