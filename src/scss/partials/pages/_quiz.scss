@@ -188,6 +188,10 @@
                 }
             }
 
+            .arrows {
+                display: none;
+            }
+
             &-block {
                 max-width: 40%;
                 text-align: center;
@@ -537,10 +541,14 @@
                     margin-bottom: 40px;
 
                     p {
-                        &:first-of-type {
+                        &:not(:last-of-type) {
                             margin-bottom: 40px;
                         }
                     }
+                }
+
+                .arrows {
+                    display: block;
                 }
                 
                 &-block {
@@ -591,7 +599,7 @@
             &-checkbox_image {
                 &-content {
                     &:hover {
-                        box-shadow: 0px 0px 15px rgba(11, 79, 127, 0.3);
+                        box-shadow: none;
                         border-color: #EDEDED;
                     }
                 }
